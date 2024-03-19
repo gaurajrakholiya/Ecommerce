@@ -1,0 +1,66 @@
+/* Customized Form Styles */
+/* CSS for Register Page Heading */
+.register-heading {
+    text-align: center; /* Center align heading */
+    font-size: 40px; /* Adjust font size */
+    color: #333333; /* Dark text color */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+  }
+  
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    flex-direction: column;
+    background-color: #f8f9fa; /* Light gray background */
+    background-image: linear-gradient(0deg, #f8f9fa 0%, #ced4da 100%); /* Gradient background */
+  }
+  
+  .form-container form {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 40px; /* Increased padding for better spacing */
+    background-color: #ffffff; /* White background */
+    border-radius: 15px; /* Rounded corners */
+    max-width: 400px; /* Limit form width */
+    width: 100%; /* Ensure form fills container */
+  }
+  
+  .form-container form .title {
+    text-align: center;
+    margin-bottom: 20px; /* Increased margin bottom */
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    color: #333333; /* Dark text color */
+  }
+  
+  .form-container form input {
+    width: calc(100% - 20px); /* Full-width input with padding adjustment */
+    padding: 15px; /* Increased padding */
+    margin-bottom: 25px; /* Increased margin bottom */
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #f1f3f4; /* Light gray background */
+    font-size: 16px; /* Larger font size */
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.1); /* Inner shadow */
+  }
+  
+  .form-container form button {
+    width: 100%; /* Full-width button */
+    padding: 15px; /* Increased padding */
+    border: none;
+    border-radius: 10px; /* Rounded corners */
+    background-color: #007bff; /* Blue button color */
+    color: #ffffff; /* White text color */
+    font-size: 18px; /* Larger font size */
+    cursor: pointer; /* Cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .form-container form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Move button slightly upwards */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+  }
+  
